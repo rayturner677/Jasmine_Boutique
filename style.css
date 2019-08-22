@@ -1,0 +1,68 @@
+body {
+    background-color: whitesmoke;
+}
+
+.logo {
+    height: 20rem;
+    width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    text-align: center;
+    border-top: #dee2e6 double;
+}
+
+.nav a {
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.sect-1 {
+    position: relative;
+    background-color: white;
+    height: 12rem;
+    width: 30rem;
+    top: 8rem;
+    margin: 0 auto;
+}
+
+.sect-1-container {
+    margin-top: 1px;
+    background-image: url("./images/pic_2.jpg");
+    background-size: contain;
+    height: 32rem;
+}
+
+.sect-1 a {
+    color: black;
+}
+.sect-2 {
+    position: relative;
+    top: 14rem;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+    justify-content: center;
+    margin-top: -8rem;
+}
+
+.sect-2 img {
+    width: 24rem;
+    height: 20rem;
+}
+
+.sect-2 a {
+    position: absolute;
+    background-color: white;
+    margin-top: -2rem;
+    margin-left: 7rem;
+    padding: 1rem 2rem 1rem 2rem;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
